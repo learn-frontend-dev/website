@@ -12,5 +12,7 @@ module.exports = function(eleventyConfig) {
     });
   });
   eleventyConfig.addPassthroughCopy("css");
-  return {};
+  return {
+    pathPrefix: "/website/"
+  };
 };

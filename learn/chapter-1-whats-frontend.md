@@ -6,4 +6,4 @@ readTime: 5 minutes
 
 Hello people!
 
-<a rel="next" href="../chapter-2-intro/">Chapter 2</a>
+<a rel="next" href="{{ '../chapter-2-intro/' | url }}">Chapter 2</a>

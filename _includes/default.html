@@ -6,7 +6,7 @@
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<meta name="description" content="Learn the web" />
 	<title>JS-CSS Ninja</title>
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 
 </head>
 
@@ -17,7 +17,7 @@
 			<use xlink:href="#logo"></use>
 		</svg> -->
 
-		<a href="/">
+		<a href="{{ '/' | url }}">
 			<h1 class="main-title">Learn<span style="color:rgb(155, 128, 40)">Frontend</span>.ninja</h1>
 		</a>
 
@@ -35,8 +35,8 @@
 			</svg>
 		</a>
 
-		<a href="/about/">About</a>
-		<a href="/privacy/">Privacy</a>
+		<a href="{{ '/about/' | url }}">About</a>
+		<a href="{{ '/privacy/' | url }}">Privacy</a>
 	</footer>
 
 	<svg style="display:none">
