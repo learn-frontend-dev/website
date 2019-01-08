@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article>
+	<h2 class="post-title">{{ title }}</h2>
+	<time datetime="{{ page.date | htmlDateString }}" class="post-meta">{{ page.date | date: "%B %d, %Y" }}</time>
+
+	<div class="post-meta">{{ readTime }} Read</div>
+
+	<div class="post-content">{{ content | safe }}</div>
+
+</article>
+
+<div class="blog-navigation-buttons">
+	{% if page.previous %}
+	<a class="button  prev-post-button" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Prev Post</a>
+	{% endif %}
+
+	{% if page.next %}
+	<a class="button  next-post-button" href="{{ page.next.url }}" title="{{ page.next.title }}">Next Post &rarr;</a>
+	{% endif %}
+</div>
+
+
+<!-- <div class="bring-to-top">TOP</div> -->

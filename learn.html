@@ -1,0 +1,15 @@
+---
+layout: default
+title: Learn Step-by-Step
+---
+<h1>Learn Step-by-Step</h1>
+
+<ol>
+  {% for post in collections.learnPosts %}
+  <li>
+    <a href="{{ post.url | url | clean }}">{% if post.data.title %}{{ post.data.title | markdown | safe }}{% else
+      %}<code>{{ post.url }}</code>{% endif %}</a>
+
+  </li>
+  {% endfor %}
+</ol>
