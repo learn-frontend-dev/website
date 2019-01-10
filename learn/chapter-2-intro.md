@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tools of Frontend
+title: Chapter 2 - Tools of Frontend
 readTime: 1 minute
 ---
 

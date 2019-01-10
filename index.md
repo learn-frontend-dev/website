@@ -5,7 +5,7 @@ layout: default
 <ul class="item-list">
 <li class="item-tile">
         <h2 class="flush">Learn step-by-step</h2>
-        <p>Let's begin to understand Frontend development from the start.</p>
+        <p>Want to begin with understanding Frontend development from the start? This is the place.</p>
         <a href="{{ '/learn/' | url }}" class="item-tile__cta">Start learning</a>
     </li>
     <li class="item-tile">

@@ -1,11 +1,13 @@
 ---
+layout: default
 title: Resources
 ---
 
-- Resource 1
+## Blogs
 
-  - Resource A
-  - Resource B
-  - Resource C
+- [CSS Tricks](https://css-tricks.com/)
 
-- Resource 2
+## Online Courses
+
+- [Frontend Masters](https://frontendmasters.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)

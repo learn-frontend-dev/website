@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Whats Frontend?
+title: Chapter 1 - Whats Frontend?
 readTime: 5 minutes
 ---
 
