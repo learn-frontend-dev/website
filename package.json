@@ -1,6 +1,9 @@
 {
   "name": "jscssninja",
   "version": "1.0.0",
+  "scripts": {
+    "start": "eleventy --serve --port=8081"
+  },
   "description": "Learn frontend",
   "main": "index.js",
   "repository": "https://github.com/jscssninja/website.git",
@@ -8,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.6.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2"
   }
 }
