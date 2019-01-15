@@ -2,7 +2,7 @@
   "name": "jscssninja",
   "version": "1.0.0",
   "scripts": {
-    "start": "eleventy --serve --port=8081"
+    "start": "eleventy --quiet --serve --port=8081"
   },
   "description": "Learn frontend",
   "main": "index.js",

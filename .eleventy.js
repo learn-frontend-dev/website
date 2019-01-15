@@ -28,6 +28,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("learnPosts", collection => {
     return collection.getFilteredByGlob("learn/*.md");
   });
+
+  eleventyConfig.addPairedShortcode("note", function(content) {
+    return `<div class="note">${content}</div>`;
+  });
+
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("robots.txt");
 

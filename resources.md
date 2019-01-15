@@ -3,6 +3,8 @@ layout: default
 title: Resources
 ---
 
+# Resources
+
 ## Blogs
 
 - [CSS Tricks](https://css-tricks.com/)
