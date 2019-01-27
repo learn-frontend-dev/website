@@ -32,24 +32,29 @@
 
 	<main class="main-content" id="main-content">
 		<article>
-	<h1 class="post-title">Chapter 3 - Your First Webpage</h1>
-	<!-- <time datetime="Mon Jan 14 2019 19:22:41 GMT+0530 (India Standard Time)" class="post-meta">🗓 January 14, 2019</time> -->
+	<h1 class="post-title">Chapter 5 - HTML - Tags</h1>
+	<!-- <time datetime="Thu Jan 17 2019 17:01:16 GMT+0530 (India Standard Time)" class="post-meta">🗓 January 17, 2019</time> -->
 
 	<div class="post-meta">⏳ 4 minute read</div>
 
-	<div class="post-content"><p>Before we officially start learning HTML, CSS &amp; JavaScript, I think it would be good to have your first webpage running in the browser - just to get a feel. Follow the steps mentioned below:</p>
-<ol>
-<li>Fire up Visual Studio Code (VSCode) editor.</li>
-<li>Create a new file from the <em>File</em> menu at the top and name it <code>first-webpage.html</code></li>
-<li>Copy and paste the following HTML into the file you just created:</li>
-</ol>
-<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token doctype">&lt;!DOCTYPE html></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>My first webpage<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is my first page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></span></code></pre>
-<ol start="4">
-<li>Open the <code>first-webpage.html</code> in the file explorer of your Operating System (Finder in MacOSX, Explorer in Windows, Nautilus in Ubuntu and so on...). And then double-click to open it. This will open your HTML file in your computer's default browser. Tada! There's your first webpage in front of you!</li>
-</ol>
-<div class="note">
-This is important note
-</div>
+	<div class="post-content"><p>In the previous chapter we saw how Tags in HTML help us wrap content to give meaning to it. Let's further dive into them.</p>
+<h2 id="what-does-a-tag-do%3F">What does a Tag do? <a class="bookmark" href="#what-does-a-tag-do%3F" aria-hidden="true">#</a></h2>
+<p>Now we'll see what all things the browser do when we wrap a particular content inside a Tag.</p>
+<p>Consider the following HTML:</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line">"Normal text <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>button text<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>"</span></code></pre>
+<p>This renders (shows) in the browser as follows:</p>
+<p>&quot;Normal text <button>button text</button>&quot;</p>
+<p>As you can notice, we have used the <code>button</code> tag above. What all changed when we used that tag to wrap the text &quot;button text&quot;.</p>
+<h3 id="appearance">Appearance <a class="bookmark" href="#appearance" aria-hidden="true">#</a></h3>
+<p>Firstly, we notice that a tag can change the appearance of the wrapped text. Similarly, the <code>strong</code> tag also changed it's content text to look a little more thick. It's this appearance that makes your webpage user recognize it by looking at it.</p>
+<p><strong>Point to Ponder</strong>: But what if your webpage user is completely or partially blind?</p>
+<p>Note that not every tag changes appearance. We'll see at <a href="">the end of this chapter</a>.</p>
+<h3 id="interactability">Interactability <a class="bookmark" href="#interactability" aria-hidden="true">#</a></h3>
+<p>In the same example of <code>button</code> tag above, we see that the wrapped text now has some additional interaction available on it. You can now actually click that button with your mouse (or tap with your finger on a touchscreen).</p>
+<p>We'll later learn that we can make any code run on the click of that button with JavaScript.</p>
+<h3 id="what-about-blind-users%3F">What about Blind users? <a class="bookmark" href="#what-about-blind-users%3F" aria-hidden="true">#</a></h3>
+<p>Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice thes changed appearance?</p>
+<p><strong>Point</strong>:</p>
 </div>
 
 </article>

@@ -32,24 +32,22 @@
 
 	<main class="main-content" id="main-content">
 		<article>
-	<h1 class="post-title">Chapter 3 - Your First Webpage</h1>
-	<!-- <time datetime="Mon Jan 14 2019 19:22:41 GMT+0530 (India Standard Time)" class="post-meta">🗓 January 14, 2019</time> -->
+	<h1 class="post-title">Chapter 4 - HTML - The Introduction</h1>
+	<!-- <time datetime="Thu Jan 17 2019 11:52:17 GMT+0530 (India Standard Time)" class="post-meta">🗓 January 17, 2019</time> -->
 
 	<div class="post-meta">⏳ 4 minute read</div>
 
-	<div class="post-content"><p>Before we officially start learning HTML, CSS &amp; JavaScript, I think it would be good to have your first webpage running in the browser - just to get a feel. Follow the steps mentioned below:</p>
-<ol>
-<li>Fire up Visual Studio Code (VSCode) editor.</li>
-<li>Create a new file from the <em>File</em> menu at the top and name it <code>first-webpage.html</code></li>
-<li>Copy and paste the following HTML into the file you just created:</li>
-</ol>
-<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token doctype">&lt;!DOCTYPE html></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>My first webpage<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is my first page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></span></code></pre>
-<ol start="4">
-<li>Open the <code>first-webpage.html</code> in the file explorer of your Operating System (Finder in MacOSX, Explorer in Windows, Nautilus in Ubuntu and so on...). And then double-click to open it. This will open your HTML file in your computer's default browser. Tada! There's your first webpage in front of you!</li>
-</ol>
-<div class="note">
-This is important note
-</div>
+	<div class="post-content"><p>As we learnt in the <a href=".">Preface</a>, HTML is the web technology that you use to write the content of your webpage in a structured way. It is very important to know how to write HTML correctly, because that will decide how much your webpage is accessible to a wide range of Web users ranging from human to bots (autonomous program that can read your website over the Internet).</p>
+<p>HTML is the short form of Hyper Text Markup Language. It was original designed for hyper-documents (simply known as webpages) - documents that can be interlinked through hyperlinks. So in essence HTML lets you write webpages and link them.</p>
+<h2 id="tags">Tags <a class="bookmark" href="#tags" aria-hidden="true">#</a></h2>
+<p>Essence of HTML are the numerous Tags it offers. <strong>Tag</strong> is something which you wrap your content with to give a particular meaning. The syntax for using a tag called <code>test</code> is as follows:</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>test</span><span class="token punctuation">></span></span>Your content here<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>test</span><span class="token punctuation">></span></span></span></code></pre>
+<p>Notice the content is enclosed between in Start tag (<code>&lt;test&gt;</code>) and an End tag (<code>&lt;/test&gt;</code>).</p>
+<p>Let's see with an example. Suppose I have my webpage as <code>index.html</code> file. Inside it I can simply put a text as follows:</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line">This is very important content.</span></code></pre>
+<p>Plain text, works just fine. But what if I want to make the word &quot;important&quot; a little more strongly visible to grab user's intention, to symbolize importance. There is a particular tag in HTML for that, called <strong>Strong</strong>. This is how I can use it:</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line">This is very <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">></span></span>important<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">></span></span> content.</span></code></pre>
+<p>Similarly there are more tags, each made for a special purpose like representing tables, hyperlinks, footers, quotes etc. More about tags in next chapter.</p>
 </div>
 
 </article>
