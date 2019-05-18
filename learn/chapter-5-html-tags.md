@@ -28,13 +28,13 @@ As you can notice, we have used the `button` tag above. What all changed when we
 
 Firstly, we notice that a tag can change the appearance of the wrapped text. Similarly, the `strong` tag also changed it's content text to look a little more thick. It's this appearance that makes your webpage user recognize it by looking at it.
 
-**Point to Ponder**: But what if your webpage user is completely or partially blind?
+**Point to Ponder**: But what if your webpage user is completely or partially blind? We'll see that at [the end of this chapter](#what-about-blind-users%3F).
 
-Note that not every tag changes appearance. We'll see at [the end of this chapter]().
+Note, not every tag changes appearance.
 
 ### Interactability
 
-In the same example of `button` tag above, we see that the wrapped text now has some additional interaction available on it. You can now actually click that button with your mouse (or tap with your finger on a touchscreen).
+In the same example of `button` tag above, we see that the wrapped text now has some additional interaction available on it. You can now actually click that button with your mouse (or tap it with your finger on a touchscreen).
 
 We'll later learn that we can make any code run on the click of that button with JavaScript.
 
