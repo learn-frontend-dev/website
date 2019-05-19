@@ -24,7 +24,3 @@ Before we officially start learning HTML, CSS & JavaScript, I think it would be 
 ```
 
 4. Open the `first-webpage.html` in the file explorer of your Operating System (Finder in MacOSX, Explorer in Windows, Nautilus in Ubuntu and so on...). And then double-click to open it. This will open your HTML file in your computer's default browser. Tada! There's your first webpage in front of you!
-
-{% note %}
-This is important note
-{% endnote %}

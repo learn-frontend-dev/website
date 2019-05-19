@@ -28,7 +28,9 @@ As you can notice, we have used the `button` tag above. What all changed when we
 
 Firstly, we notice that a tag can change the appearance of the wrapped text. Similarly, the `strong` tag also changed it's content text to look a little more thick. It's this appearance that makes your webpage user recognize it by looking at it.
 
-**Point to Ponder**: But what if your webpage user is completely or partially blind? We'll see that at [the end of this chapter](#what-about-blind-users%3F).
+{% note %}
+<strong>Point to Ponder</strong>: But what if your webpage user is completely or partially blind? We'll see that at <a href="#what-about-blind-users%3F">the end of this chapter</a>.
+{% endnote %}
 
 Note, not every tag changes appearance.
 

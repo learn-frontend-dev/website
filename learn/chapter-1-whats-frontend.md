@@ -6,7 +6,7 @@ readTime: 3 minutes
 
 Before learning Frontend development, let's first understand what exactly we mean by "Frontend". For that, let's see what happened when you opened the URL of this website in your browser.
 
-1. You enter "https://learnfrontend.ninja" in the browser address bar.
+1. You enter "https://learnfrontend.dev" in the browser address bar.
 2. A request (network call over the Internet) goes to a remote server (computer) asking for the corresponding webpage.
 3. Now that remote server does some processing on it's end. This is what we call Backend - The work that happened away from your sight, on a remote server.
 4. When the backend work is finished, the server responds with mostly an HTML file (a file with .html extension) for that web page.
