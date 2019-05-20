@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Chapter 5 - HTML - Tags
-readTime: 4 minute
+chapter: 6
+readTime: 4 minutes
 tags:
   - html
 ---

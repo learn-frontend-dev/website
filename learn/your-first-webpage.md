@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Chapter 3 - Your First Webpage
-readTime: 4 minute
+chapter: 4
+readTime: 4 minutes
 ---
 
 Before we officially start learning HTML, CSS & JavaScript, I think it would be good to have your first webpage running in the browser - just to get a feel. Follow the steps mentioned below:

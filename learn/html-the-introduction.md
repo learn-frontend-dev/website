@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Chapter 4 - HTML - The Introduction
-readTime: 4 minute
+chapter: 5
+readTime: 4 minutes
 tags:
   - html
 ---

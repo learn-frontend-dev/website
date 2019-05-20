@@ -15,7 +15,7 @@
 	<a href="#main-content" class="skip-to-main-content">Skip to main Content</a>
 	<header class="main-header">
 
-		<a href="{{ '/' | url }}">
+		<a href="{{ '/' | url }}" class="main-title-link">
 			{% if page.fileSlug == '' %}
 			<h1 class="main-title">
 				{% else %}
@@ -32,8 +32,9 @@
 		{{content}}
 	</main>
 
-	<aside>
+	<aside style="text-align: center">
 		<a href="{{ '/learn/' | url }}">Learn</a>
+		<span aria-hidden="true">▸</span>
 		<a href="{{ '/resources/' | url }}">Resources</a>
 	</aside>
 
@@ -42,10 +43,10 @@
 		<a href="https://twitter.com/learn__frontend" rel="external">
 			Twitter
 		</a>
+		<span aria-hidden="true">▸</span>
 
-		<a href="{{ '/about/' | url }}">About</a>
-		<a href="{{ '/privacy/' | url }}">Privacy</a>
-		<a href="https://github.com/chinchang/" rel="external">Source</a>
+		<!-- <a href="{{ '/about/' | url }}">About</a> -->
+		<a href="https://github.com/learn-frontend-dev/website" rel="external">Source</a>
 	</footer>
 </body>
 

@@ -26,7 +26,9 @@ module.exports = function(eleventyConfig) {
 
   // Create a collection for blog posts only.
   eleventyConfig.addCollection("learnPosts", collection => {
-    return collection.getFilteredByGlob("learn/*.md");
+    return collection.getFilteredByGlob("learn/*.md").sort((a,b) => {
+      return a.data.chapter - b.data.chapter
+    })
   });
 
   eleventyConfig.addPairedShortcode("note", function(content) {
