@@ -42,6 +42,4 @@ We'll later learn that we can make any code run on the click of that button with
 
 ### What about Blind users?
 
-Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice thes changed appearance?
-
-**Point**:
+Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice the changed appearance?
