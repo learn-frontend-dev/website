@@ -43,4 +43,8 @@ We'll later learn that we can make any code run on the click of that button with
 
 ### What about Blind users?
 
-Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice the changed appearance?
+Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice the changed appearance? For that, we first need to understand how the blind people use websites.
+1. They don't use a mouse. And generally interact through a keyboard. Why? Because a mouse requires you to see the screen, whereas with keyboard you can cycle through different parts of a website using the Tab key. Note here.
+2. They use a special software called as a screen reader. When you focus a particular part of the website with the Tab key, the screen reader announce information about that particular focused thing of the website - so that the user can hear where they are right now.
+
+Remember our button tag above? Let's say we have such a button tag wrapping the text "Click me". When a user sets focus on that button, the screen reader says "Click me, button". Hearing that, the user knows it's a button and they can click it using the Enter or Space key on their keyboard.
