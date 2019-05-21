@@ -12,9 +12,5 @@ layout: default
 </article>
 
 <div class="content-container">
-  {% if next %}
-  <div style="display:flex;justify-content: flex-end">
-    <a rel="next" href="{{ next.url | url }}">{{ next.label }} 👉🏼</a>
-  </div>
-  {% endif %}
+  {% nextPost page.fileSlug %}
 </div>
