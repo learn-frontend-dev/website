@@ -89,6 +89,14 @@ code {
   padding: 0.2rem 0.6rem;
   /* font-size: 1.1em; */
 }
+kbd {
+  font-size: inherit;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  background: #cdc09e;
+  padding: 0.2rem 0.6rem;
+  border-bottom: 4px solid;
+  border-radius: 0 0 7px 7px;
+}
 @media (max-width: 800px) {
   html {
     font-size: 1.2em;

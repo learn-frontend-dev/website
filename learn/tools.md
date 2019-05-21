@@ -2,7 +2,7 @@
 layout: post
 title: Chapter 2 - Tools of Frontend
 chapter: 3
-readTime: 4 minute
+readTime: 3 minutes
 ---
 
 There are some tools that we need to have installed on our computer before we can start creating and seeing our webpage.
@@ -31,5 +31,3 @@ Though an Editor and a browser is sufficient to start Frontend development, ther
 A Frontend playground is a web app that is a combination of an editor and browser preview. In a single screen, you can edit your code and alongside see a realtime preview of your code that auto-refreshes with every code change. Sweet! right?
 
 There are may Frontend playgrounds out there, but I'll recommend <a href="https://webmakerapp.com/app/" rel="external">Web Maker</a> because it's easy to use and works even when you are offline!! So head there and signup. You are free to use Web Maker to practice everything you learn here.
-
-<a href="https://webmakerapp.com/app/" rel="external">Signup on Web Maker</a>

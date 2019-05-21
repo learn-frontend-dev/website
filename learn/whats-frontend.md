@@ -2,10 +2,10 @@
 layout: post
 title: Chapter 1 - Whats Frontend?
 chapter: 2
-readTime: 3 minutes
+readTime: 2.5 minutes
 next:
-    label: Next chapter
-    url: /learn/chapter-2-tools/
+  label: Next chapter
+  url: /learn/chapter-2-tools/
 ---
 
 Before learning Frontend development, let's first understand what exactly we mean by **"Frontend"**. For that, let's see what happened when you opened the URL of this website in your browser.
