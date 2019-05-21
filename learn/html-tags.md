@@ -43,7 +43,7 @@ We'll later learn that we can make any code run on the click of that button with
 
 ### What about Blind users?
 
-Do you know, not every user of your webpage can see. Their are people who are completely or partially blind, color blind etc. How do they notice the changed appearance? For that, we first need to understand how the blind people use websites.
+Do you know, not every user of your webpage can see. There are people who are completely or partially blind, color blind etc. How do they notice the changed appearance from a tag? For that, we first need to understand how the blind people use websites.
 1. They don't use a mouse. And generally interact through a keyboard. Why? Because a mouse requires you to see the screen, whereas with keyboard you can cycle through different parts of a website using the Tab key.
 {% note %}
 <kbd>Tab</kbd> key on a website (even in general) is a way to move the keyboard focus from current to next focusable element. An element having focus means that we are ready to interact with it by pressing other keys like <kbd>Enter</kbd>, <kbd>Space</kbd> etc.
