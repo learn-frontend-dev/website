@@ -114,6 +114,17 @@ kbd {
 .code-box__preview iframe {
   border: 0;
 }
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 0;
+  grid-gap: 2rem;
+}
+.item-tile {
+  background: #c1f7e5;
+  padding: 1rem;
+  list-style: none;
+}
 @media (max-width: 800px) {
   html {
     font-size: 1.2em;
